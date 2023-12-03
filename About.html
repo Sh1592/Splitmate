@@ -7,5 +7,16 @@
 </head>
 <body>
     <h1>About Page </h1>
+    <p>stash can be used to save work on one file and work on another in the meantime. And we can restore our work of first file and come to it later 
+        git stash - this will store the wip code temprory some where and dont push it to main. This is done so that we dont lose our work and come and work on this again
+        git stash list - this will give us the list of all unpushed changes that we can work on at later stage.
+        git stash pop - to bring back the changes that we have worked on back from stash
+        git stash clear - clears the list of saved stash, after this it is not possible to bring back the temp changes
+        git stash save _name_of_file_ - changes are saved with name given on file.
+        git stash apply _index_number_ - access the changes saved with name, through Index number
+        git restore _name_of_file_ - restore from working directory
+        git restore --stagged _name_of_file_ - restore from stagging directory  
+
+    </p>
 </body>
 </html>
